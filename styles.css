@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f9f9f9;
+}
+
+.link-button {
+    background: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.link-button p {
+    margin: 0;
+    color: white;
+}
+
+.link-button a {
+    color: yellow;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.link-button a:hover {
+    text-decoration: underline;
+}
