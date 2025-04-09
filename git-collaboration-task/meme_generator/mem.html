@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Meme Generator 🐶</h1>
+
+  <div class="meme-container">
+    <img id="memeImage" src="https://via.placeholder.com/400x300" alt="Meme Image">
+    <div class="meme-text top" id="topTextDisplay"></div>
+    <div class="meme-text bottom" id="bottomTextDisplay"></div>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="topText" placeholder="Top Text">
+    <input type="text" id="bottomText" placeholder="Bottom Text">
+    <br>
+    <button id="newMeme">Generate New Meme</button>
+    <button id="clearText">Clear Text</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
